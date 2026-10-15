@@ -7,6 +7,7 @@ const rateLimit = require("express-rate-limit");
 const OpenAI = require("openai");
 const knowledgeBase = require("./knowledge_base.json");
 const app = express();
+app.use(express.static(__dirname));
 app.set("trust proxy", 1);
 app.use(cors({
   origin: [
