@@ -1,5 +1,6 @@
 require("dotenv").config();
 
+const path = require("path");
 const express = require("express");
 const cors = require("cors");
 const rateLimit = require("express-rate-limit");
@@ -31,7 +32,7 @@ const client = new OpenAI({
 });
 
 app.get("/", (req, res) => {
-  res.send("Oyen is running.");
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
 app.post("/chat", chatLimiter, async (req, res) => {
