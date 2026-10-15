@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Azzahrah AI Concierge</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+#oyenFloatingButton {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 64px;
+  height: 64px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+  font-size: 34px;
+  cursor: pointer;
+  z-index: 9999;
+}
+#oyenFloatingButton img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+.header img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+    .chat-container {
+      width: 420px;
+      height: 700px;
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .header {
+      background: #0b6b50;
+      color: white;
+      padding: 22px;
+    }
+
+    .header h2 {
+      margin: 0 0 5px 0;
+      font-size: 20px;
+    }
+
+    .header p {
+      margin: 0;
+      font-size: 13px;
+      opacity: 0.9;
+    }
+
+    .messages {
+      flex: 1;
+      padding: 20px;
+      overflow-y: auto;
+      background: #f8faf9;
+    }
+
+    .message {
+      margin-bottom: 14px;
+      display: flex;
+    }
+
+    .bot {
+      justify-content: flex-start;
+    }
+
+    .user {
+      justify-content: flex-end;
+    }
+
+    .bubble {
+      max-width: 80%;
+      padding: 12px 15px;
+      border-radius: 15px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .bot .bubble {
+      background: white;
+      border: 1px solid #e3e8e5;
+    }
+
+    .user .bubble {
+      background: #0b6b50;
+      color: white;
+    }
+
+    .input-area {
+      display: flex;
+      padding: 12px;
+      border-top: 1px solid #eee;
+      background: white;
+      gap: 8px;
+    }
+
+    #messageInput {
+      flex: 1;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      outline: none;
+      font-size: 14px;
+    }
+
+    #sendButton {
+      border: none;
+      background: #0b6b50;
+      color: white;
+      padding: 0 18px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    #sendButton:hover {
+      opacity: 0.9;
+    }
+    
+  
+.thinking-dots {
+  display: inline-flex;
+  gap: 3px;
+  margin-left: 4px;
+}
+
+.thinking-dots span {
+  animation: thinkingDot 1.2s infinite;
+}
+
+.thinking-dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.thinking-dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes thinkingDot {
+  0%, 60%, 100% {
+    opacity: 0.2;
+    transform: translateY(0);
+  }
+
+  30% {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+@media (max-width: 600px) {
+    #oyenFloatingButton {
+        bottom: 90px;
+    }
+}
+  </style>
+</head>
+
+<body>
+<button id="oyenFloatingButton" aria-label="Buka Oyen">
+  <img src="oyen-logo.png" alt="Oyen">
+</button>
+  <div class="chat-container">
+
+    <div class="header">
+      <h2><img src="oyen-logo.png" alt="Oyen"> Oyen</h2>
+      <p>Hospital Islam Az-Zahrah</p>
+    </div>
+
+    <div class="messages" id="messages">
+
+      <div class="message bot">
+        <div class="bubble">
+          Assalamualaikum 👋<br><br>
+          Selamat datang ke Hospital Islam Az-Zahrah.
+          Saya Azzahrah AI Concierge. Bagaimana saya boleh membantu anda?
+        </div>
+      </div>
+
+    </div>
+
+    <div class="input-area">
+
+      <input
+        type="text"
+        id="messageInput"
+        placeholder="Taip mesej anda..."
+      >
+
+      <button id="sendButton">
+        Hantar
+      </button>
+
+    </div>
+
+  </div>
+
+  <script>
+    const oyenFloatingButton = document.getElementById("oyenFloatingButton");
+const chatContainer = document.querySelector(".chat-container");
+
+oyenFloatingButton.addEventListener("click", () => {
+  if (chatContainer.style.display === "flex") {
+    chatContainer.style.display = "none";
+  } else {
+    chatContainer.style.display = "flex";
+  }
+});
+const OFFICIAL_LINKS = {
+  phone: "tel:+60389212525",
+  whatsapp: "https://wa.me/60163328733",
+  appointment: "https://chup.online/hospital-islam-az-zahrah?via=qrcode"
+};
+    const input = document.getElementById("messageInput");
+    const sendButton = document.getElementById("sendButton");
+    const messages = document.getElementById("messages");
+
+    function addMessage(text, sender) {
+  const message = document.createElement("div");
+  message.className = "message " + sender;
+
+  const bubble = document.createElement("div");
+  bubble.className = "bubble";
+
+  const safeText = String(text).replace(/[&<>"']/g, function (char) {
+    return {
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#039;"
+    }[char];
+  });
+
+ if (text === "🐱 Oyen sedang berfikir...") {
+    bubble.innerHTML = `🐱 Oyen sedang berfikir<span class="thinking-dots"><span>•</span><span>•</span><span>•</span></span>`;
+} else {
+    bubble.innerHTML = safeText
+        .replace(/\n/g, "<br>")
+        .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+}
+
+  message.appendChild(bubble);
+  messages.appendChild(message);
+
+  messages.scrollTop = messages.scrollHeight;
+}
+
+
+function isEmergencyMessage(text) {
+  const message = text.toLowerCase();
+    const educationalPatterns = [
+        "nak tahu",
+        "ingin tahu",
+        "mahu tahu",
+        "sekadar nak tahu",
+        "saya nak tahu",
+        "apa tanda",
+        "apakah tanda",
+        "tanda-tanda",
+        "apa punca",
+        "apakah punca",
+        "apa sebab",
+        "adakah sakit"
+    ];
+
+    const currentSymptomPatterns = [
+        "saya sakit",
+        "aku sakit",
+        "saya sedang sakit",
+        "sekarang sakit",
+        "tengah sakit",
+        "sekarang susah bernafas",
+        "tak boleh bernafas",
+        "tidak boleh bernafas",
+        "sedang pengsan",
+        "baru pengsan"
+    ];
+
+    const isEducationalQuestion =
+        educationalPatterns.some(pattern => message.includes(pattern));
+
+    const hasCurrentSymptom =
+        currentSymptomPatterns.some(pattern => message.includes(pattern));
+const negativePatterns = [
+  "bukan sebab saya sakit",
+  "bukan sebab saya sedang sakit",
+  "bukan saya yang sakit",
+  "saya tak sakit",
+  "saya tidak sakit",
+  "tidak sedang sakit",
+  "bukan sedang sakit",
+  "sekadar nak tahu",
+  "nak tahu sahaja",
+];
+
+const hasNegativeContext = negativePatterns.some(pattern =>
+  message.includes(pattern)
+);
+if (hasNegativeContext) {
+  return false;
+}
+
+if (isEducationalQuestion && !hasCurrentSymptom) {
+  return false;
+}  const emergencyKeywords = [
+    "sakit dada",
+    "dada sakit",
+    "susah bernafas",
+    "sesak nafas",
+    "tak boleh bernafas",
+    "tidak boleh bernafas",
+    "nafas pendek",
+    "pengsan",
+    "tidak sedarkan diri",
+    "tak sedarkan diri",
+    "pendarahan banyak",
+    "darah banyak",
+    "pendarahan teruk",
+    "sawan",
+    "stroke",
+    "angin ahmar",
+    "muka senget",
+    "tangan lemah",
+    "percakapan tidak jelas",
+    "kemalangan teruk",
+    "tercekik",
+    "terbakar teruk"
+  ];
+
+  return emergencyKeywords.some(keyword =>
+    message.includes(keyword)
+  );
+}
+let lastUserMessage = "";
+async function sendMessage() {
+
+
+
+  const text = input.value.trim();
+lastUserMessage = text;
+  if (!text) {
+    return;
+  }
+if (isEmergencyMessage(text)) {
+  addMessage(text, "user");
+
+  addMessage(
+  "🚨 KECEMASAN PERUBATAN\n\n" +
+  "Gejala yang anda nyatakan mungkin memerlukan rawatan segera.\n\n" +
+  "Hubungi **999** jika keadaan serius atau mengancam nyawa.\n" +
+  "Jangan memandu sendiri jika anda tidak sihat.\n" +
+  "Anda juga boleh terus ke **Accident & Emergency Hospital Islam Az-Zahrah**, yang beroperasi 24 jam.\n" +
+  "Telefon hospital: +603-8921 2525",
+  "bot"
+);
+
+  input.value = "";
+  return;
+}
+  addMessage(text, "user");
+
+  input.value = "";
+
+  addMessage("🐱 Oyen sedang berfikir...", "bot");
+
+  try {
+
+    const response = await fetch("/chat", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        message: text
+      })
+    });
+
+    const data = await response.json();
+console.log("ACTION DARI SERVER:", data.action);
+    // Buang mesej "Sedang memproses..."
+    const botMessages = messages.querySelectorAll(".bot");
+    const lastBotMessage = botMessages[botMessages.length - 1];
+
+    if (lastBotMessage) {
+      lastBotMessage.remove();
+    }
+
+if (data.reply) {
+  addMessage(data.reply, "bot");
+  
+  if (data.action) {
+    addActionButton(data.action);
+  }
+} else {
+  addMessage(
+    data.error || "Maaf, sistem sedang mengalami masalah. Sila cuba lagi sebentar lagi.",
+    "bot"
+  );
+}
+
+  } catch (error) {
+
+    console.error(error);
+
+    const botMessages = messages.querySelectorAll(".bot");
+    const lastBotMessage = botMessages[botMessages.length - 1];
+
+    if (lastBotMessage) {
+      lastBotMessage.remove();
+    }
+
+    addMessage(
+  "Maaf, terdapat masalah sambungan. Sila cuba lagi.",
+  "bot"
+);
+
+addRetryButton();
+  }
+}
+function addRetryButton() {
+  const button = document.createElement("button");
+  button.textContent = "↻ Cuba Lagi";
+  button.className = "action-button";
+
+  button.onclick = () => {
+    input.value = lastUserMessage;
+    sendMessage();
+  };
+
+  messages.appendChild(button);
+  messages.scrollTop = messages.scrollHeight;
+}
+function addActionButton(action) {
+  const actionConfig = {
+    appointment: {
+      label: "📅 Buat Temujanji →",
+      url: OFFICIAL_LINKS.appointment
+    },
+    whatsapp: {
+      label: "💬 WhatsApp Azzahrah →",
+      url: OFFICIAL_LINKS.whatsapp
+    },
+    phone: {
+      label: "☎️ Call Hospital →",
+      url: OFFICIAL_LINKS.phone
+    }
+  };
+
+  const config = actionConfig[action];
+
+  if (!config) {
+    return;
+  }
+
+  const message = document.createElement("div");
+  message.className = "message bot";
+
+  const button = document.createElement("a");
+  button.href = config.url;
+  button.textContent = config.label;
+  button.target = "_blank";
+  button.rel = "noopener noreferrer";
+
+  button.style.display = "inline-block";
+  button.style.padding = "10px 16px";
+  button.style.marginTop = "6px";
+  button.style.background = "#0b765b";
+  button.style.color = "white";
+  button.style.textDecoration = "none";
+  button.style.borderRadius = "20px";
+  button.style.fontWeight = "600";
+
+  message.appendChild(button);
+  messages.appendChild(message);
+  messages.scrollTop = messages.scrollHeight;
+}
+    sendButton.addEventListener("click", sendMessage);
+
+    input.addEventListener("keydown", function(event) {
+
+      if (event.key === "Enter") {
+        sendMessage();
+      }
+
+    });
+
+  </script>
+
+</body>
+</html>

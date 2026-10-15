@@ -1,0 +1,1145 @@
+{
+  "hospital": {
+    "name": "Hospital Islam Az-Zahrah",
+    "short_name": "HIAZ",
+    "address": "34, Jalan Medan PB 1, Seksyen 9, 43650 Bandar Baru Bangi, Selangor",
+    "phone": "+603-8921 2525",
+    "whatsapp": "+6016-332 8733",
+    "email": "info@azzahrah.my",
+    "website": "https://azzahrah.my",
+    "appointment_url": "https://chup.online/hospital-islam-az-zahrah?via=qrcode"
+  },
+
+  "emergency": {
+    "name": "Accident & Emergency",
+    "available": "24 jam",
+    "instruction": "Untuk kecemasan atau gejala yang serius, sila terus ke Jabatan Kecemasan dan Kemalangan atau hubungi 999 jika keadaan mengancam nyawa."
+  },
+
+  "services": [
+    "Obstetrics & Gynaecology",
+    "Paediatrics",
+    "Internal Medicine",
+    "Orthopaedics",
+    "General Surgery",
+    "Plastic & Reconstructive Surgery",
+    "Cardiology",
+    "Ophthalmology",
+    "Radiology",
+    "ENT",
+    "Dermatology",
+    "Psychiatry",
+    "Psychology",
+    "Physiotherapy"
+  ],
+"diagnostic_imaging": {
+  "not_available": [
+    "MRI",
+    "CT Scan",
+    "Mammogram"
+  ],
+  "note": "Hospital Islam Az-Zahrah tidak menyediakan perkhidmatan MRI, CT Scan atau Mammogram."
+},
+    "doctors": [
+    {
+      "name": "Dr. Noraini Bt. Nor",
+      "specialty": "Obstetrics & Gynaecology"
+    },
+    {
+      "name": "Dr. Fazlina Hanum Bt. Mohd Ali",
+      "specialty": "Obstetrics & Gynaecology"
+    },
+    {
+      "name": "Dr. Mashita Bt Mohamed Kassim",
+      "specialty": "Obstetrics & Gynaecology"
+    },
+    {
+      "name": "Dr. Anita Rina Binti Ali",
+      "specialty": "Obstetrics & Gynaecology"
+    },
+    {
+      "name": "Dr. Azmaniza Baharudin",
+      "specialty": "Obstetrics & Gynaecology",
+      "subspecialty": "Gynaecological Cancer"
+    },
+    {
+      "name": "Prof. Madya Dr. Habibah Abdul Hamid",
+      "specialty": "Obstetrics & Gynaecology"
+    },
+
+    {
+      "name": "Dr. Md Nazim Bin Abu",
+      "specialty": "Paediatrics"
+    },
+    {
+      "name": "Dr. Nik Rosenorleyaney Bt. Nik Ibrahim",
+      "specialty": "Paediatrics"
+    },
+    {
+      "name": "Dr. Siti Sarah Aishah Bt Suhaidi",
+      "specialty": "Paediatrics",
+      "interest": "Child Development"
+    },
+
+    {
+      "name": "Dr. Nabilah Binti Othman",
+      "specialty": "Internal Medicine",
+      "interest": "Diabetes"
+    },
+    {
+      "name": "Dr. Mohd Fyzal Bin Bahrudin",
+      "specialty": "Internal Medicine",
+      "subspecialty": "Endocrine"
+    },
+    {
+      "name": "Dr. Zulkifli Bin Abas",
+      "specialty": "Internal Medicine"
+    },
+    {
+      "name": "Dr. Nur Juliana binti Fauzi",
+      "specialty": "Internal Medicine"
+    },
+
+    {
+  "name": "Dr. Azaiddin Akashah",
+  "specialty": "Orthopaedics",
+  "subspecialty": "Orthopaedic & Trauma"
+},
+{
+  "name": "Dr. Ashraf Hakim Ab Halim",
+  "specialty": "Orthopaedics",
+  "subspecialty": "Orthopaedic & Trauma"
+},
+{
+  "name": "Dr. Mohd Hezery Harun",
+  "specialty": "Orthopaedics",
+  "subspecialty": "Orthopaedic Trauma & Spine"
+},
+
+    {
+      "name": "Mr. Mohamad Salleh Bin Abdul Aziz",
+      "specialty": "General Surgery"
+    },
+    {
+      "name": "Ms. Nadiah binti Rosly",
+      "specialty": "General Surgery"
+    },
+    {
+      "name": "Ms. Lenny Suryani Binti Safri",
+      "specialty": "General Surgery",
+      "subspecialty": "Vascular Surgery"
+    },
+    {
+      "name": "Mr. Yahya Bin Mohd Aripin",
+      "specialty": "General Surgery",
+      "subspecialty": "Breast & Endocrine"
+    },
+
+    {
+      "name": "Dr. Ilyasak Hussin",
+      "specialty": "Plastic & Reconstructive Surgery"
+    },
+
+    {
+      "name": "Dr. Siti Dalila binti Adnan",
+      "specialty": "Cardiology"
+    },
+    {
+      "name": "Dr. Mohd Ruslan bin Mustapa",
+      "specialty": "Cardiology"
+    },
+
+    {
+      "name": "Dr. Azlina Binti Mokhtar",
+      "specialty": "Ophthalmology",
+      "subspecialty": "Public Health Ophthalmology"
+    },
+    {
+      "name": "Dr. Norlaila Binti Talib",
+      "specialty": "Ophthalmology",
+      "subspecialty": "Oculoplastic & Orbit"
+    },
+    {
+      "name": "Dr. Mohd Hassan @ Maung Maung Win",
+      "specialty": "Ophthalmology"
+    },
+
+    {
+      "name": "Dr. Mohd Azaldin Nor",
+      "specialty": "Radiology"
+    },
+    {
+      "name": "Dr. Anas bin Tharek",
+      "specialty": "Radiology"
+    },
+
+    {
+      "name": "Dr. Azlan Iskandar Bin Ishak",
+      "specialty": "ENT",
+      "subspecialty": "Head & Neck Surgery"
+    },
+    {
+      "name": "Dr. Khadijah Binti Mohd Nor",
+      "specialty": "ENT",
+      "subspecialty": "Paediatric ENT"
+    },
+    {
+      "name": "Dr. Nor Eyzawiah Hassan",
+      "specialty": "ENT"
+    },
+    {
+      "name": "Dr. Norhaslinda binti Mohari",
+      "specialty": "ENT",
+      "interest": "Sleep Medicine"
+    },
+    {
+      "name": "Dr. Siti Asmat binti MD Arepen",
+      "specialty": "ENT"
+    },
+
+    {
+      "name": "Datin Dr. Asmah Binti Johar",
+      "specialty": "Dermatology"
+    },
+
+    {
+      "name": "Dr Nathratul Ayeshah binti Zulkifli",
+      "specialty": "Psychiatry"
+    },
+    {
+      "name": "Dr. Norliza Binti Chemi",
+      "specialty": "Psychiatry"
+    }
+  ],
+
+  "facilities": [
+    "Accident & Emergency",
+    "Ambulance",
+    "Maternity",
+    "Operating Theatre",
+    "Pharmacy",
+    "Medical Laboratory",
+    "Nursery",
+    "Diagnostic Imaging",
+    "Wards",
+    "Surau"
+  ],
+
+  "visitor_hours": "8:00 pagi hingga 10:00 malam",
+   "visitor_guidelines": {
+    "allowed_caregiver": "Suami, isteri, ibu, ayah atau penjaga sahaja dibenarkan menemani pesakit.",
+    "non_mahram": "Bukan mahram tidak dibenarkan menemani pesakit.",
+    "after_visiting_hours": "Selepas waktu lawatan, suami atau isteri tidak dibenarkan menunggu atau bermalam di wad kecuali di bilik perseorangan.",
+    "caregiver_limit": "Seorang penjaga sahaja dibenarkan pada satu-satu masa.",
+    "paediatric_caregiver": "Bagi pesakit kanak-kanak bawah 12 tahun, dua penjaga dibenarkan hanya untuk kemasukan bilik perseorangan.",
+    "visitor_limit": {
+      "single_room": "Maksimum 2 orang pelawat pada satu-satu masa.",
+      "double_bedded": "Maksimum 1 orang pelawat pada satu-satu masa."
+    },
+    "visitor_pass": "Pelawat perlu mempunyai pas pelawat Hospital Islam Az-Zahrah.",
+    "procedures": "Pelawat tidak dibenarkan berada di sisi pesakit semasa prosedur perawatan dijalankan.",
+    "smoking": "Merokok tidak dibenarkan di kawasan hospital.",
+    "parking": "Pelawat boleh menggunakan tempat letak kereta di hadapan hospital dengan kupon MPKJ atau aplikasi Flexi Parking 2.0.",
+    "surau": "Surau terletak di tingkat 1 dan 3."
+  },
+  "insurance_panel": {
+    "panel_status": "Hospital Islam Az-Zahrah adalah hospital panel bagi pelbagai syarikat insurans, TPA dan organisasi korporat.",
+    "important_note": "Coverage bergantung kepada polisi, majikan, insurans atau TPA pesakit. Pesakit perlu mengesahkan kelayakan sebelum mendapatkan rawatan.",
+    "outpatient": "Pesakit outpatient yang ingin menggunakan panel perlu membawa Guarantee Letter (GL) untuk mendapatkan coverage panel.",
+    "inpatient": "Tiada sebarang deposit akan dikenakan bagi kemasukan wad melalui insurans atau MCO.",
+    "verification": "Untuk pengesahan panel atau coverage tertentu, sila hubungi Hospital Islam Az-Zahrah di +603-8921 2525."
+  },
+  "physiotherapy": {
+    "appointment_required": true,
+    "walk_in": false,
+    "note": "Temujanji diperlukan untuk rawatan fisioterapi."
+  },
+
+  "room_rates": {
+    "VIP": "RM390 sehari",
+    "Super Deluxe": "RM320 sehari",
+    "Standard Single": "RM240 sehari",
+    "Single": "RM200 sehari",
+    "Two Beds / Twin Sharing": "RM150 sehari",
+    "Three Beds / Triple Sharing": "RM135 sehari",
+    "Day Care": "RM100, 8 pagi hingga 5 petang"
+  },
+"registration_routing": {
+  "general_question": "Jika pesakit bertanya secara umum seperti 'pendaftaran di mana?', 'nak daftar dekat mana?' atau 'kaunter pendaftaran kat mana?', Oyen mesti bertanya dahulu: 'Boleh saya tahu pendaftaran untuk perkhidmatan apa ya? 😊'",
+  "check_up_clarification": "Jika pesakit menyebut apa-apa jenis check-up seperti check-up, Medical Check-Up, Follow-Up Check-Up atau check-up biasa tetapi tidak menyatakan sama ada dengan MO atau Pakar, Oyen mesti bertanya dahulu: 'Boleh saya tahu check-up tersebut dengan MO atau Pakar ya? 😊'",
+  "health_screening_clarification": "Jika pesakit menyebut Health Screening tetapi tidak menyatakan sama ada dengan MO atau Pakar, Oyen mesti bertanya dahulu: 'Boleh saya tahu Health Screening tersebut dengan MO atau Pakar ya? 😊'",
+  "service_locations": {
+    "ward_admission": "Untuk kemasukan wad atau admission, pendaftaran dibuat di kaunter pendaftaran bersebelahan lif.",
+    "specialist_clinic": "Untuk berjumpa dengan Pakar bagi apa-apa kes, sila buat temujanji melalui link rasmi HIAZ: https://chup.online/hospital-islam-az-zahrah/appointments/service. Untuk pendaftaran, sebelum 10:00 malam di lobi utama dan selepas 10:00 malam di Jabatan Kecemasan (ED).",
+"checkup_mo": "Untuk check-up dengan MO, tidak perlu membuat temujanji dan boleh datang secara walk-in. Pendaftaran dibuat di Jabatan Kecemasan (ED). Waktu walk-in ialah 8:00 pagi hingga 8:00 malam, Isnin hingga Ahad. Untuk X-ray, caj on-call RM20 dikenakan mulai 3:00 petang Sabtu hingga Ahad.",    
+"checkup_specialist": "Untuk check-up dengan Pakar, sila buat temujanji melalui link rasmi HIAZ: https://chup.online/hospital-islam-az-zahrah/appointments/service. Pendaftaran dibuat di lobi utama sebelum 10:00 malam dan di Jabatan Kecemasan (ED) selepas 10:00 malam.",
+    "health_screening_mo": "Untuk Health Screening dengan MO, pendaftaran dibuat di kaunter pendaftaran di Jabatan Kecemasan.",
+    "health_screening_specialist": "Untuk Health Screening dengan Pakar, sila buat temujanji melalui link rasmi HIAZ: https://chup.online/hospital-islam-az-zahrah/appointments/service. Pendaftaran dibuat di lobi utama sebelum 10:00 malam dan di Jabatan Kecemasan (ED) selepas 10:00 malam."
+  },
+  "after_10pm": "Selepas 10:00 malam, semua urusan pendaftaran dibuat di kaunter pendaftaran di Jabatan Kecemasan.",
+  "priority_rule": "Jika pesakit menyatakan waktu selepas 10:00 malam, semua pendaftaran mesti diarahkan ke kaunter pendaftaran Jabatan Kecemasan.",
+  "specialist_clinic_hours": "Klinik Pakar beroperasi dari 8:00 pagi hingga 10:00 malam, atau sehingga semua appointment selesai.",
+  "do_not_generalize": "Kaunter bersebelahan lif adalah untuk kemasukan wad atau admission sahaja. Oyen tidak boleh menganggap semua urusan pendaftaran dibuat di kaunter sebelah lif."
+},
+  "admission": {
+    "registration": "Kaunter pendaftaran terletak di sebelah lif, di bahagian kanan pintu masuk utama.",
+    "after_hours": "Selepas waktu pejabat, pendaftaran kemasukan dibuat di kaunter Accident & Emergency di sebelah kiri pintu masuk utama.",
+    "documents": [
+      "Kad pengenalan / passport",
+      "MyKid untuk kanak-kanak",
+      "Guarantee Letter (GL) atau kad insurans jika berkaitan"
+    ],
+    "panel_insurance": "Pesakit perlu memastikan syarikat insurans atau TPA mereka adalah panel Hospital Islam Az-Zahrah sebelum kemasukan wad.",
+    "payment_without_gl": "Jika tiada GL, bayaran boleh dibuat menggunakan tunai, kad debit atau kad kredit.",
+    "deposit": {
+  "medical": "RM1,000",
+  "surgical": "50% daripada anggaran kos pembedahan",
+  "insurance_mco": "Tiada sebarang deposit akan dikenakan bagi kemasukan wad melalui insurans atau MCO.",
+  "note": "Keperluan bayaran atau deposit bagi kes lain bergantung kepada jenis kemasukan dan terma yang berkenaan."
+},
+    "insurance_waiting_time": "Untuk kemasukan melalui insurans, proses kemasukan ke wad biasanya mengambil masa sekitar 1 hingga 3 jam selepas GL difaks kepada pihak berkaitan."
+  },
+    "packages": {
+    "Ibu & Wanita": [
+      {
+  "name": "Az-Zahrah Maternity Package",
+  "description": "Pakej Bersalin Ratu.",
+  "promotion": {
+    "name": "Promosi Istimewa 2026 : Pakej Bersalin Ratu",
+    "promotion_period": "24 September hingga 31 Disember 2026",
+    "normal_delivery": {
+      "3_bed": "RM2,699",
+      "2_bed": "RM2,799",
+      "single_standard_single": "RM2,899",
+      "super_deluxe": "RM3,099",
+      "VIP": "RM3,299"
+    },
+    "LSCS": {
+      "3_bed": "RM7,799",
+      "2_bed": "RM7,899",
+      "single_standard_single": "RM7,999",
+      "super_deluxe": "RM8,299",
+      "VIP": "RM8,599"
+    }
+  },
+  "regular_price": {
+    "normal_delivery": {
+      "3_bed": "RM3,199",
+      "2_bed": "RM3,299",
+      "single_standard_single": "RM3,399",
+      "super_deluxe": "RM3,599",
+      "VIP": "RM3,799"
+    },
+    "LSCS": {
+      "3_bed": "RM9,199",
+      "2_bed": "RM9,299",
+      "single_standard_single": "RM9,399",
+      "super_deluxe": "RM9,599",
+      "VIP": "RM9,799"
+    }
+  },
+  "additional_note": "Harga bergantung kepada penilaian doktor, pilihan bilik, keadaan klinikal dan prosedur atau rawatan tambahan yang diperlukan."
+},
+      {
+  "name": "Couple Fertility Screening Package",
+  "description": "Saringan kesuburan untuk pasangan.",
+  "price": "RM555",
+  "validity": "1 Januari hingga 31 Disember 2026",
+  "payment": "Tunai sahaja",
+  "additional_note": "Harga tidak termasuk yuran pendaftaran."
+},
+      {
+  "name": "HyFoSy Package",
+  "description": "Ujian tiub fallopio untuk menilai saluran tiub fallopio.",
+  "price": "RM829",
+  "validity": "1 Januari hingga 31 Disember 2026",
+  "appointment_required": true
+},
+      {
+  "name": "Detail Scan",
+  "description": "Imbasan terperinci untuk memantau perkembangan dan kesihatan bayi dalam kandungan.",
+  "packages": {
+    "2D Detail Scan": {
+      "price": "RM145"
+    },
+    "Detail Scan 3D/4D": {
+      "price": "RM215"
+    }
+  },
+  "gestational_age": "22 hingga 28 minggu",
+  "validity": "1 Januari hingga 31 Disember 2026",
+  "appointment_required": true,
+  "additional_note": "Temujanji tertakluk kepada kekosongan slot."
+},
+      {
+  "name": "Kelas Antenatal",
+  "description": "Kelas persediaan kehamilan, kelahiran, penjagaan bayi dan penyusuan.",
+  "price": "RM249",
+  "unit": "1 pasangan",
+  "gestational_age": "14 hingga 35 minggu",
+  "validity": "2026",
+  "includes": [
+    "Teknik Tidurkan Bayi",
+    "Mengurus Bayi Baru Lahir",
+    "Proses Kehamilan & Kelahiran",
+    "Teknik Penyusuan Susu Ibu",
+    "Senaman & Pernafasan",
+    "Penyakit Lazim Bayi",
+    "Makanan dan minuman"
+  ],
+  "additional_note": "Pelanggan Az-Zahrah yang bersalin di Hospital Islam Az-Zahrah perlu membayar yuran terlebih dahulu; yuran akan dipulangkan atau ditolak daripada bil akhir bersalin, tertakluk kepada terma.",
+  "appointment_required": true
+}
+    ],
+
+    "Kanak-Kanak": [
+      {
+  "name": "Baby Immunization/Vaccination Package",
+  "description": "Pakej imunisasi dan vaksinasi bayi.",
+  "packages": {
+    "Pakej Asas": {
+      "price": "RM1,899",
+      "validity": "1 Januari hingga 31 Disember 2026",
+      "includes": [
+        "4 dos vaksin 6-in-1",
+        "3 dos Pneumococcal 13v PCV (Prevenar) atau 15v PCV (Vaxneuvance)",
+        "2 dos MMR (Measles, Mumps, Rubella)"
+      ]
+    },
+    "Pakej Tambahan": {
+      "price": "RM999",
+      "validity": "1 Januari hingga 31 Disember 2026",
+      "includes": [
+        "2 atau 3 dos Rotavirus (Rotarix atau Rotateq)",
+        "2 dos Chicken Pox (Varicella)",
+        "2 dos Influenza (Vaxigrip)"
+      ]
+    }
+  },
+  "location": "Paediatric Specialist Clinic Hospital Islam Az-Zahrah",
+  "additional_note": "Pakej termasuk yuran pendaftaran tetapi tidak termasuk konsultasi pakar pediatrik."
+},
+      {
+  "name": "Neurodevelopmental Package",
+  "description": "Penilaian awal untuk mengenal pasti kebimbangan perkembangan kanak-kanak.",
+  "price": "RM599",
+  "validity": "1 April hingga 31 Disember 2026",
+  "age_requirement": "Kanak-kanak berumur 2 tahun ke atas",
+  "includes": [
+    "Konsultasi",
+    "Assessment",
+    "Medical report",
+    "Therapy plan"
+  ],
+  "appointment_required": true,
+  "additional_note": "Caj konsultasi tambahan RM50 dikenakan pada Sabtu dan Ahad. Bayaran tunai sahaja."
+},
+      {
+  "name": "Tongue Tie",
+  "description": "Penilaian dan rawatan tongue-tie untuk bayi.",
+  "price": "RM400",
+  "validity": "1 Januari hingga 31 Disember 2026",
+  "appointment_required": true,
+  "eligibility": "Sesuai untuk bayi yang belum tumbuh gigi.",
+  "includes": [
+    "Konsultasi doktor pakar kanak-kanak",
+    "Rawatan Tongue Tie"
+  ]
+},
+      {
+  "name": "Sunat Kanak-Kanak Perempuan",
+  "description": "Khidmat sunat untuk bayi dan kanak-kanak perempuan oleh Pakar Kanak-Kanak.",
+  "price": "RM300",
+  "validity": "1 Januari hingga 31 Disember 2026",
+  "age_requirement": "Bayi dan kanak-kanak perempuan sehingga 12 tahun, tertakluk kepada penilaian pakar.",
+  "includes": [
+    "Konsultasi bersama Pakar Kanak-Kanak",
+    "Prosedur sunat moden tanpa jahitan",
+    "Nasihat penjagaan selepas sunat",
+    "Fi pendaftaran"
+  ],
+  "appointment_required": true,
+  "additional_note": "Setiap permohonan tertakluk kepada penilaian dan nasihat Pakar Kanak-Kanak sebelum prosedur dijalankan."
+}
+    ],
+
+    "Khatan & Pembedahan": [
+      {
+  "name": "Circumcision Package",
+  "description": "Pakej khatan menggunakan teknik moden.",
+  "price": {
+    "baby_1_day_to_6_months": {
+      "bipolar_specialist": "RM630",
+      "plastibell_specialist": "RM590"
+    },
+    "child_6_to_12_years": {
+      "bipolar_specialist": "RM620",
+      "cautery_specialist": "RM590"
+    },
+    "adult_13_years_and_above": {
+      "bipolar_specialist": "RM750"
+    },
+    "full_anaesthesia": "RM2,799"
+  },
+  "validity": "1 Januari hingga 31 Disember 2026",
+  "additional_note": "Full Anaesthesia Package termasuk ward admission dan daycare."
+},
+      {
+        "name": "Pakej OGDS & COLONOSCOPY",
+        "description": "Pemeriksaan endoskopi untuk masalah gastrik dan pencernaan."
+      },
+      {
+  "name": "Pakej Pembedahan Tapak Dialisis (AVF)",
+  "description": "Prosedur pembentukan akses salur darah untuk rawatan hemodialisis oleh Pakar Bedah Vaskular.",
+  "price": "RM3,799++",
+  "validity": "1 Januari hingga 31 Disember 2026",
+  "appointment_required": true,
+  "payment": "Tunai",
+  "deposit": "70% semasa kemasukan wad",
+  "includes": [
+    "Konsultasi dan ultrasound sebelum pembedahan",
+    "Yuran kemasukan wad",
+    "Ubat standard untuk dibawa pulang",
+    "Bilik daycare"
+  ],
+  "excludes": [
+    "Ujian tambahan",
+    "Ubatan tambahan",
+    "Prosedur atau rawatan komplikasi tambahan sebelum dan selepas pembedahan"
+  ],
+  "additional_note": "Simbol ++ menunjukkan caj tambahan mungkin dikenakan. Konsultasi pakar diperlukan sebelum tarikh pembedahan ditetapkan."
+}
+    ],
+
+    "Tulang": [
+      {
+        "name": "ACL Package",
+        "description": "Pakej rawatan berkaitan kecederaan ACL dan pemulihan untuk kembali bersukan."
+      },
+      {
+        "name": "Trigger Finger Package",
+        "description": "Rawatan pakar untuk masalah trigger finger."
+      },
+      {
+  "name": "Pakej Suntikan Lutut (Knee Injection)",
+  "description": "Rawatan suntikan lutut tanpa pembedahan untuk membantu mengurangkan sakit dan meningkatkan pergerakan.",
+  "price_range": "RM858 hingga RM3,000",
+  "price_note": "Anggaran harga pakej. Kos sebenar bergantung kepada jenis suntikan dan keadaan pesakit.",
+  "appointment_required": true,
+  "additional_note": "Sila hubungi Hospital Islam Az-Zahrah untuk pengesahan kos dan promosi semasa."
+}
+    ],
+
+    "ENT": [
+      {
+        "name": "Pakej Sleep Study Screening",
+        "description": "Saringan awal untuk masalah tidur, berdengkur dan sleep apnea."
+      }
+    ],
+
+    "Mata": [
+      {
+        "name": "Eye Examination Package",
+        "description": "Pemeriksaan mata untuk pengesanan awal masalah penglihatan."
+      },
+      {
+  "name": "Cataract Surgery Package",
+  "description": "Pakej pembedahan katarak bermula RM4,699 untuk sebelah mata.",
+  "price": "RM4,699 / sebelah mata",
+  "validity": "1 Disember 2025 hingga 31 Disember 2026",
+  "includes": [
+    "Konsultasi dan prosedur oleh Pakar Oftalmologi",
+    "Monofocal lens",
+    "Daycare"
+  ],
+  "excludes": [
+    "Ujian pra-pembedahan",
+    "Ujian darah",
+    "General anaesthesia jika diperlukan",
+    "Follow-up"
+  ],
+  "additional_note": "Harga dan kesesuaian pakej tertakluk kepada penilaian Pakar Oftalmologi dan keadaan pesakit."
+},
+      {
+  "name": "Pakej Pterygium",
+  "description": "Rawatan pterygium untuk membantu keselesaan dan kesihatan mata.",
+  "additional_note": "Harga dan maklumat pakej semasa perlu disahkan dengan Hospital Islam Az-Zahrah."
+}
+    ],
+
+    "Psychology": [
+      {
+  "name": "Pakej Diagnostik ADHD",
+  "description": "Penilaian psikologi profesional untuk ADHD.",
+  "packages": [
+    {
+      "name": "ADHD Discovery",
+      "price": "RM2,199",
+      "age": "6 hingga 18 tahun",
+      "sessions": "4 sesi konsultasi",
+      "assessment": [
+        "Penilaian ADHD (Conner's 4th Edition, Child Behavior Checklist)",
+        "Penilaian IQ (WISC-V / WAIS-IV)"
+      ],
+      "includes": [
+        "Laporan Psikologikal Komprehensif"
+      ]
+    },
+    {
+      "name": "Adult ADHD",
+      "price": "RM2,299",
+      "age": "18 tahun ke atas",
+      "sessions": "4 sesi konsultasi",
+      "assessment": [
+        "Penilaian ADHD (Conner's 4th Edition, Diagnostic Interview for ADHD in Adults)",
+        "Penilaian IQ (WISC-V / WAIS-IV)"
+      ],
+      "includes": [
+        "Laporan Psikologikal Komprehensif"
+      ]
+    }
+  ],
+  "validity": "1 Februari 2026 hingga 31 Disember 2026",
+  "terms": [
+    "Harga termasuk caj pendaftaran, konsultasi dan laporan penilaian.",
+    "Tidak termasuk tambahan masa konsultasi, terapi dan permohonan kad OKU.",
+    "Sesi penilaian perlu diselesaikan dalam masa 3 bulan."
+  ],
+  "additional_note": "Bayaran boleh dibuat secara tunai (2 kali), Atome (3 kali) atau Pelan Ansuran Mudah Kad Kredit."
+},
+      {
+  "name": "Pakej Diagnostik Autism",
+  "description": "Penilaian psikologi profesional untuk Autism.",
+  "packages": [
+    {
+      "name": "Little Star Autism",
+      "price": "RM1,699",
+      "age": "Bawah 6 tahun",
+      "sessions": "4 sesi konsultasi",
+      "assessment": [
+        "Pemerhatian Tingkahlaku",
+        "Penilaian Spektrum Autism (CARS, GARS & VABS)"
+      ],
+      "includes": [
+        "Laporan Psikologikal Komprehensif"
+      ]
+    },
+    {
+      "name": "Autism Discovery",
+      "price": "RM2,599",
+      "age": "6 hingga 17 tahun",
+      "sessions": "5 sesi konsultasi",
+      "assessment": [
+        "Pemerhatian Tingkahlaku",
+        "Penilaian Spektrum Autism (CARS, GARS & VABS)",
+        "Penilaian IQ (WISC-V, WAIS-IV, TONI-4)"
+      ],
+      "includes": [
+        "Laporan Psikologikal Komprehensif"
+      ]
+    },
+    {
+      "name": "Adult Autism",
+      "price": "RM2,299",
+      "age": "18 tahun ke atas",
+      "sessions": "4 sesi konsultasi",
+      "assessment": [
+        "Pemerhatian Tingkahlaku",
+        "Penilaian Spektrum Autism (Autism Spectrum Quotient, VABS)",
+        "Penilaian IQ (WAIS-IV)"
+      ],
+      "includes": [
+        "Laporan Psikologikal Komprehensif"
+      ]
+    }
+  ],
+  "validity": "1 Februari 2026 hingga 31 Disember 2026",
+  "terms": [
+    "Harga termasuk caj pendaftaran, konsultasi dan laporan penilaian.",
+    "Tidak termasuk tambahan masa konsultasi, terapi dan permohonan kad OKU.",
+    "Sesi penilaian perlu diselesaikan dalam masa 3 bulan."
+  ],
+  "additional_note": "Bayaran ansuran boleh dibuat secara tunai (2 kali), Atome (3 kali) atau Pelan Ansuran Mudah Kad Kredit."
+},
+      {
+  "name": "Pakej Intelligence Quotient (IQ)",
+  "description": "Penilaian psikologi profesional untuk mengukur profil kecerdasan dan fungsi kognitif.",
+  "price": "RM1,899",
+  "age": "6 tahun ke atas",
+  "sessions": "4 sesi konsultasi",
+  "assessment": [
+    "Penilaian IQ (WISC-V / WAIS-IV / TONI-4 & VABS-3)"
+  ],
+  "includes": [
+    "Laporan Psikologikal Komprehensif"
+  ],
+  "validity": "1 Februari 2026 hingga 31 Disember 2026",
+  "terms": [
+    "Harga termasuk caj pendaftaran, konsultasi dan laporan penilaian.",
+    "Tidak termasuk tambahan masa konsultasi, terapi dan permohonan kad OKU.",
+    "Sesi penilaian perlu diselesaikan dalam masa 3 bulan."
+  ],
+  "additional_note": "Bayaran ansuran boleh dibuat secara tunai (2 kali), Atome (3 kali) atau Pelan Ansuran Mudah Kad Kredit."
+},
+      {
+  "name": "Psychological Therapy Package",
+  "description": "Pakej terapi psikologi berstruktur untuk membantu pengurusan emosi, stres, anxiety dan isu kehidupan seharian.",
+  "price": "RM999",
+  "sessions": "5 sesi terapi",
+  "regular_price": "RM1,250",
+  "validity": "11 Februari 2026 hingga 31 Disember 2026",
+  "suitable_for": [
+    "Gangguan mood",
+    "Anxiety disorder",
+    "Tekanan kerja dan burnout",
+    "Kesukaran mengurus stres",
+    "Isu emosi, hubungan dan kehidupan seharian"
+  ],
+  "includes": [
+    "Matlamat terapi yang jelas dan realistik",
+    "Teknik pengurusan emosi dan stres",
+    "Intervensi psikologi berasaskan bukti",
+    "Pelan kendiri untuk pencegahan relapse",
+    "Sesi dalam bilik konsultasi yang selesa dan sulit"
+  ],
+  "additional_note": "Diagnosis rasmi hanya dibuat melalui penilaian profesional."
+}
+    ],
+
+    "Pemeriksaan Kesihatan & Vaksin": [
+      {
+  "name": "Pakej Hiaz Health",
+  "description": "Pakej saringan kesihatan menyeluruh untuk membantu pemantauan dan pengesanan awal masalah kesihatan.",
+  "additional_note": "Maklumat harga dan tempoh sah pakej yang dipaparkan pada laman rasmi HIAZ perlu disahkan dengan pihak hospital kerana halaman saringan yang dirujuk masih menunjukkan tempoh efektif 1 Januari hingga 31 Disember 2025."
+},
+      {
+  "name": "Pakej Saringan Kesihatan Eksekutif",
+  "description": "Saringan menyeluruh untuk pemantauan kesihatan individu dan profesional.",
+  "additional_note": "Maklumat harga dan tempoh sah pakej semasa perlu disahkan dengan Hospital Islam Az-Zahrah kerana halaman rasmi yang dirujuk tidak memaparkan harga atau tempoh promosi dalam teks."
+},
+      {
+  "name": "Hajj & Umrah Health Package",
+  "description": "Pakej pemeriksaan kesihatan dan vaksinasi untuk persediaan menunaikan Haji dan Umrah.",
+  "packages": {
+    "Pakej Kesihatan Asas": {
+      "price": "RM119",
+      "includes": [
+        "Konsultasi doktor dan laporan",
+        "Pemeriksaan kesihatan fizikal",
+        "Full Blood Count",
+        "Fasting Blood Sugar",
+        "Fasting Lipid Profile"
+      ]
+    },
+    "Pakej Kesihatan Vital": {
+      "price": "RM159",
+      "includes": [
+        "Konsultasi doktor dan laporan",
+        "Pemeriksaan kesihatan fizikal",
+        "Fasting Lipid Profile",
+        "HbA1c",
+        "Renal Profile"
+      ]
+    },
+    "Pakej Vaksin Haji & Umrah": {
+      "Pakej A": {
+        "price": "RM149",
+        "includes": [
+          "Vaksin Meningococcal"
+        ]
+      },
+      "Pakej B": {
+        "price": "RM199",
+        "includes": [
+          "Vaksin Meningococcal",
+          "Vaksin Influenza"
+        ]
+      },
+      "Pakej C": {
+        "price": "RM219",
+        "includes": [
+          "Vaksin Influenza",
+          "Vaksin Pneumococcal"
+        ]
+      },
+      "Pakej D": {
+        "price": "RM319",
+        "includes": [
+          "Vaksin Meningococcal",
+          "Vaksin Pneumococcal"
+        ]
+      },
+      "Pakej E": {
+        "price": "RM359",
+        "includes": [
+          "Vaksin Meningococcal",
+          "Vaksin Influenza",
+          "Vaksin Pneumococcal"
+        ]
+      }
+    }
+  },
+  "additional_tests": [
+    "Pakej GT2",
+    "X-Ray Dada — RM40",
+    "ECG — RM30"
+  ],
+  "important_notes": [
+    "Vaksin Meningococcal adalah wajib bagi jemaah Haji.",
+    "Vaksin Influenza dan Pneumococcal adalah vaksin tambahan yang disarankan mengikut keadaan dan nasihat doktor.",
+    "Pemeriksaan kesihatan memerlukan puasa sekurang-kurangnya 8 jam.",
+    "Tempoh yang sesuai untuk pemeriksaan kesihatan atau vaksin adalah sekitar 14 hari sebelum berangkat.",
+    "Temujanji diperlukan untuk pemeriksaan kesihatan atau vaksin.",
+    "Harga di atas perlu disahkan dengan pihak hospital sebelum pembayaran kerana halaman rasmi tidak menyatakan tempoh sah harga."
+  ]
+},
+      {
+  "name": "Pakej Medical Checkup & Universiti college",
+  "description": "Pemeriksaan kesihatan pelajar untuk pendaftaran universiti, kolej, program tajaan, pelajar perubatan dan pelajar antarabangsa.",
+  "additional_note": "Harga pakej yang dipaparkan pada halaman rasmi HIAZ adalah untuk promosi 1 Januari hingga 30 Jun 2026 dan telah tamat. Harga semasa perlu disahkan dengan Hospital Islam Az-Zahrah."
+},
+      {
+  "name": "Pakej DNA Test",
+  "description": "Ujian DNA Wellness untuk memahami profil genetik dan kaitannya dengan kesihatan, nutrisi dan gaya hidup.",
+  "price": "RM1,899/pax",
+  "original_price": "RM2,499",
+  "validity": "1 Januari hingga 31 Disember 2026",
+  "includes": [
+    "Konsultasi oleh Doktor Kesihatan",
+    "Ujian DNA lengkap",
+    "Lebih 1,000 analisis genetik"
+  ],
+  "report_covers": [
+    "Alahan",
+    "Nutrisi",
+    "Kesihatan Mental",
+    "Kesuburan",
+    "Sensitiviti Kulit",
+    "Penyakit Kronik",
+    "Penyakit Pembawa",
+    "Personaliti",
+    "Imuniti",
+    "Kanser",
+    "Sensitiviti Makanan",
+    "Kecergasan Fizikal"
+  ],
+  "additional_note": "Pelan bayaran mudah 0% faedah tersedia tertakluk kepada terma dan syarat."
+},
+      {
+  "name": "Allergy Test",
+  "description": "Ujian darah untuk membantu mengenal pasti punca alahan dan tindak balas terhadap pelbagai alergen.",
+  "panels": [
+    {
+      "name": "36 Allergy Panel",
+      "price": "RM432",
+      "covers": [
+        "Makanan",
+        "Haiwan",
+        "Kutu",
+        "Habuk",
+        "Rumput",
+        "Kulat"
+      ]
+    },
+    {
+      "name": "54 Allergy Panel",
+      "price": "RM675",
+      "covers": [
+        "Makanan",
+        "Haiwan",
+        "Kutu",
+        "Habuk",
+        "Tumbuhan-tumbuhan",
+        "Kulat",
+        "Serangga"
+      ]
+    },
+    {
+      "name": "107 Allergy Panel",
+      "price": "RM598",
+      "covers": [
+        "Makanan",
+        "Haiwan",
+        "Kutu",
+        "Habuk",
+        "Tumbuhan-tumbuhan",
+        "Kulat",
+        "Serangga",
+        "Lateks"
+      ]
+    }
+  ],
+  "validity": "1 Januari hingga 31 Disember 2026",
+  "additional_note": "Ujian dilakukan melalui sampel darah dan pilihan panel bergantung kepada keperluan pesakit."
+},
+      {
+  "name": "Thalassemia Screening Package",
+  "description": "Saringan darah untuk mengenal pasti risiko dan status talasemia.",
+  "packages": [
+    {
+      "name": "Individu",
+      "price": "RM199",
+      "includes": [
+        "Ujian darah untuk saringan talasemia",
+        "Konsultasi bersama doktor",
+        "Caj pendaftaran hospital"
+      ]
+    },
+    {
+      "name": "Pasangan",
+      "price": "RM389",
+      "includes": [
+        "Ujian darah untuk saringan talasemia",
+        "Konsultasi bersama doktor",
+        "Caj pendaftaran hospital"
+      ]
+    }
+  ],
+  "validity": "1 Januari hingga 31 Disember 2026",
+  "suitable_for": [
+    "Individu atau pasangan yang merancang perkahwinan",
+    "Pasangan yang ingin hamil dan merancang keluarga",
+    "Individu dengan sejarah keluarga talasemia"
+  ],
+  "additional_note": "Saringan dilakukan melalui ujian darah untuk mengenal pasti sama ada seseorang merupakan pembawa atau mempunyai talasemia."
+},
+      {
+  "name": "Employee Health Screening Package",
+  "description": "Pemeriksaan kesihatan pra-pekerjaan untuk individu sebelum menyertai organisasi atau memulakan pekerjaan.",
+  "packages": [
+    {
+      "name": "Pakej Asas"
+    },
+    {
+      "name": "Pakej Standard"
+    },
+    {
+      "name": "Pakej Pra-Pekerjaan"
+    }
+  ],
+  "appointment_required": false,
+  "walk_in": true,
+  "operating_hours": "8:00 pagi hingga 7:00 malam, Isnin hingga Jumaat",
+  "estimated_duration": "3 hingga 5 jam",
+  "typical_process": [
+    "X-ray jika diperlukan",
+    "Ujian air kencing",
+    "Ujian darah jika diperlukan",
+    "Pemeriksaan fizikal",
+    "Konsultasi doktor"
+  ],
+  "additional_note": "Jenis pemeriksaan perlu mengikut keperluan atau borang kesihatan daripada institusi atau majikan. Harga semasa perlu disahkan dengan Hospital Islam Az-Zahrah."
+},
+      {
+  "name": "Pakej Pap Smear + HPV DNA Test",
+  "description": "Saringan serviks yang menggabungkan ujian Pap Smear dan HPV DNA.",
+  "tests": [
+    "Pap Smear",
+    "HPV DNA"
+  ],
+  "procedure": "Sampel diambil daripada serviks menggunakan berus khas dan boleh digunakan untuk kedua-dua analisis Pap Smear dan HPV DNA.",
+  "additional_note": "Ujian ini merupakan saringan dan bukan diagnosis. Keputusan perlu dibincangkan dengan doktor. Harga semasa dan keperluan temujanji perlu disahkan dengan Hospital Islam Az-Zahrah."
+},
+      {
+  "name": "Pakej Pap Smear",
+  "description": "Saringan Pap Smear untuk membantu pemeriksaan kesihatan serviks.",
+  "additional_note": "Ujian Pap Smear ialah ujian saringan dan bukan diagnosis. Keputusan perlu dibincangkan dengan doktor. Harga semasa dan keperluan temujanji perlu disahkan dengan Hospital Islam Az-Zahrah."
+},
+      {
+  "name": "HPV Vaccination Package",
+  "description": "Vaksinasi HPV untuk membantu mencegah jangkitan HPV dan penyakit berkaitan HPV.",
+  "includes": [
+    "Pendaftaran dan vaksinasi HPV",
+    "Pemberian vaksin oleh pegawai perubatan bertauliah"
+  ],
+  "additional_note": "Harga pakej yang dipaparkan pada halaman rasmi HIAZ adalah untuk promosi 1 Januari hingga 31 Disember 2025 dan telah tamat. Harga, bilangan dos dan kesesuaian vaksinasi semasa perlu disahkan dengan Hospital Islam Az-Zahrah."
+},
+      {
+  "name": "Typhoid Package",
+  "description": "Pakej suntikan vaksin Typhoid untuk pengendali makanan dan pekerja sektor makanan dan minuman.",
+  "price": "RM133",
+  "validity": "1 Januari hingga 31 Disember 2026",
+  "includes": [
+    "Suntikan Typhoid",
+    "Konsultasi bersama pegawai perubatan",
+    "Sijil suntikan rasmi"
+  ],
+  "suitable_for": [
+    "Pengendali makanan di restoran, kantin dan gerai makan",
+    "Peniaga bazar Ramadan dan penjaja makanan",
+    "Ejen penghantaran makanan",
+    "Individu yang bekerja dalam sektor pemprosesan makanan"
+  ],
+  "additional_note": "HIAZ menyatakan suntikan Typhoid diwajibkan bagi pengendali makanan mengikut peraturan kesihatan yang berkaitan. Satu suntikan diperlukan untuk perlindungan sehingga 3 tahun seperti yang dinyatakan pada halaman rasmi HIAZ."
+},
+      {
+  "name": "Dengue Vaccine Package",
+  "description": "Pakej vaksinasi denggi untuk membantu mengurangkan risiko jangkitan denggi.",
+  "packages": [
+    {
+      "name": "1 Dos",
+      "price": "RM250"
+    },
+    {
+      "name": "2 Dos",
+      "price": "RM480"
+    }
+  ],
+  "validity": "1 Januari hingga 31 Disember 2026",
+  "schedule": "2 dos diperlukan pada bulan 0 dan bulan 3.",
+  "age": "4 tahun dan ke atas",
+  "includes": [
+    "Konsultasi Pegawai Perubatan",
+    "Caj pendaftaran"
+  ],
+  "additional_note": "Untuk individu berumur 13 tahun dan ke atas, vaksin denggi disediakan di Bahagian Kecemasan. Kanak-kanak berumur 12 tahun dan ke bawah perlu mendapatkan konsultasi Pakar Kanak-kanak dan harga pakej tidak termasuk konsultasi pakar."
+},
+      {
+  "name": "Pre-Marital Screening Package",
+  "description": "Pakej saringan kesihatan pra perkahwinan untuk individu atau pasangan yang bakal berkahwin.",
+  "packages": [
+    {
+      "name": "Individu",
+      "price": "RM199"
+    },
+    {
+      "name": "Pasangan",
+      "price": "RM389"
+    }
+  ],
+  "validity": "1 Januari hingga 31 Disember 2026",
+  "includes": [
+    "Full Blood Picture (FBP)",
+    "ABO - Blood Type Test",
+    "HIV Antibody Test",
+    "Rapid Plasma Reagin (RPR) - Saringan Sifilis",
+    "Hepatitis B Screening"
+  ],
+  "suitable_for": [
+    "Pasangan yang bakal berkahwin",
+    "Individu yang ingin mengetahui status kesihatan sebelum berkeluarga",
+    "Pasangan yang ingin merancang kehamilan"
+  ],
+  "additional_note": "Saringan pra perkahwinan membantu menilai beberapa aspek kesihatan termasuk status HIV, sifilis, Hepatitis B, kumpulan darah dan parameter darah. Keputusan ujian perlu dibincangkan dengan doktor."
+},
+      {
+  "name": "Pakej Saringan Awal Kanser Usus",
+  "description": "Saringan awal kanser usus menggunakan ujian Fecal Occult Blood (FOB).",
+  "test": "Fecal Occult Blood (FOB)",
+  "result_time": "15 minit",
+  "additional_note": "Harga promosi yang dipaparkan pada halaman rasmi HIAZ adalah untuk tempoh 1 Jun hingga 31 Disember 2025 dan telah tamat. Harga semasa perlu disahkan dengan Hospital Islam Az-Zahrah."
+},
+      {
+  "name": "Medication Kit Package",
+  "description": "Travel Medication Kit untuk bekalan ubat asas ketika melancong, Umrah, Haji atau perjalanan jauh.",
+  "packages": [
+    {
+      "name": "Dewasa Basic",
+      "price": "RM69",
+      "includes": [
+        "Ubat untuk demam, pening, selsema, batuk dan sakit tekak",
+        "Vitamin C",
+        "Voren Gel",
+        "Handyplast"
+      ]
+    },
+    {
+      "name": "Dewasa Premium",
+      "price": "RM89",
+      "includes": [
+        "Kit Basic Dewasa",
+        "Air garam",
+        "Ubat cirit-birit",
+        "Ubat muntah",
+        "Probiotik"
+      ]
+    },
+    {
+      "name": "Kanak-kanak Basic",
+      "price": "RM49",
+      "includes": [
+        "Ubat untuk demam, selsema, batuk dan sakit tekak",
+        "Vitamin C",
+        "Handyplast"
+      ]
+    },
+    {
+      "name": "Kanak-kanak Premium",
+      "price": "RM69",
+      "includes": [
+        "Kit Basic Kanak-kanak",
+        "Air garam",
+        "Ubat sakit perut",
+        "Probiotik"
+      ]
+    }
+  ],
+  "validity": "Sehingga 31 Disember 2026",
+  "suitable_for": [
+    "Individu yang sering melancong atau melakukan perjalanan jauh",
+    "Jemaah Umrah dan Haji",
+    "Ibu bapa yang membawa anak kecil bercuti"
+  ],
+  "additional_note": "Kit ini mengandungi bekalan ubat asas untuk membantu mengurus masalah kesihatan ringan semasa perjalanan."
+},
+      {
+        "name": "Pakej Jaundis",
+        "description": "Rawatan dan pemantauan jaundis."
+      },
+      {
+  "name": "Pakej Vaksin Influenza",
+  "description": "Vaksinasi influenza untuk membantu mengurangkan risiko jangkitan influenza.",
+  "includes": [
+    "Yuran pendaftaran",
+    "Suntikan vaksin influenza"
+  ],
+  "suitable_for": [
+    "Kanak-kanak",
+    "Dewasa",
+    "Warga emas",
+    "Pekerja sektor awam dan swasta",
+    "Individu yang merancang perjalanan ke luar negara"
+  ],
+  "additional_note": "Harga semasa perlu disahkan dengan Hospital Islam Az-Zahrah. Halaman rasmi HIAZ menyatakan harga tidak termasuk konsultasi Pakar Kanak-kanak dan konsultasi Pegawai Perubatan bagi kanak-kanak berumur 12 tahun ke bawah."
+},
+      {
+  "name": "Pakej Sihat Kurus Cantik",
+  "description": "Program pengurusan berat badan untuk gaya hidup lebih sihat.",
+  "additional_note": "Harga dan butiran pakej semasa perlu disahkan dengan Hospital Islam Az-Zahrah."
+},
+      {
+  "name": "Pakej Home Nursing Services",
+  "description": "Perkhidmatan penjagaan profesional di rumah untuk membantu keperluan penjagaan pesakit.",
+  "price": "Bermula RM70",
+  "additional_note": "Harga bermula RM70 seperti yang dipaparkan pada katalog rasmi HIAZ. Jenis perkhidmatan dan kos sebenar bergantung kepada keperluan penjagaan pesakit dan perlu disahkan dengan Hospital Islam Az-Zahrah."
+},
+      {
+  "name": "Pakej Postnatal di Rumah",
+  "description": "Sokongan penjagaan ibu dan bayi selepas bersalin di rumah.",
+  "additional_note": "Harga dan butiran perkhidmatan semasa perlu disahkan dengan Hospital Islam Az-Zahrah."
+}
+    ],
+
+    "Konsultasi Online": [
+      {
+        "name": "Konsultasi Online",
+        "description": "Perkhidmatan konsultasi secara maya."
+      }
+    ],
+
+    "Dekorasi Wad": [
+      {
+        "name": "Pakej Dekorasi Wad & Rekod Moment",
+        "description": "Dekorasi wad dan rakaman momen istimewa."
+      }
+    ]
+  },
+  "safety_rules": [
+    "Jangan membuat diagnosis.",
+    "Jangan mencadangkan perubahan ubat preskripsi.",
+    "Jangan menjanjikan appointment atau availability.",
+    "Jangan mereka-reka harga, doktor, jadual atau coverage insurans.",
+    "Jika maklumat tidak disahkan, nyatakan bahawa maklumat tersebut perlu disahkan dengan pihak hospital.",
+    "Untuk kecemasan, utamakan arahan mendapatkan rawatan segera."
+  ]
+}
